@@ -13,4 +13,3 @@ ingredients.forEach((item,idx) => {
   liElements[idx].className = "item";
 });
 document.querySelector("ul#ingredients").append(...liElements);
-console.log(document);
